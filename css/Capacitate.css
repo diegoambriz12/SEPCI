@@ -1,0 +1,87 @@
+.cursos h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+}
+
+.cursos {
+  margin-top: 50px;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+}
+.curso_info {
+  margin-bottom: 90px;
+  width: 100%;
+}
+.curso_info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.curso {
+  margin-bottom: 90px;
+}
+.cursos h1 {
+  color: #741731;
+  font-family: "Roboto", sans-serif;
+  size: 50px;
+}
+.imagen {
+  padding-right: 20px;
+}
+.imagen img {
+  padding-top: 35px;
+  width: 120px;
+  height: 120px;
+}
+
+.inf_curso h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+}
+.inf_curso {
+  font-family: "Roboto", sans-serif;
+  width: 70%;
+}
+
+.inf_curso button {
+  background: #741731;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 15px 50px;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+}
+.btn {
+  background: #741731;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  padding: 5px 20px;
+  border-radius: 50px;
+  transition: transform 0.3s ease;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.curso_desc {
+  width: 40%;
+  margin-left: 40px;
+}
+
+.curso_desc h2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid black;
+}
+
+.curso_desc h3 {
+  font-weight: bold;
+}

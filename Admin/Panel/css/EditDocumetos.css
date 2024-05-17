@@ -1,0 +1,82 @@
+.contenedor {
+    display: flex;
+    justify-content: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.conten_input {
+    width: 50%;
+}
+
+.columna {
+    margin: 15px 0 0 15px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.titulo h3 {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.titulo p {
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.columna label {
+    width: 30%;
+    text-align: end;
+    margin-right: 20px;
+}
+
+.columna input {
+    width: 90%;
+    height: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+.columna select {
+    width: 90%;
+    height: 10px;
+    padding: 10px;
+    border: 2px solid #ccc;
+}
+
+.btn_send {
+    background-color: #741731;
+    color: white;
+    width: 156px;
+    height: 41px;
+    border: none;
+    border-radius: 21px;
+    margin-bottom: 100px;
+}
+
+/* Subir archivo */
+#dropzone {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+}
+
+.archivos .text{
+    margin-left: 70px;
+}
+
+.archivos {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+#dropzone.dragover {
+    border-color: #007bff;
+}

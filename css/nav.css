@@ -1,0 +1,77 @@
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+.Main_header {
+  position: sticky;
+  top: 0%;
+  z-index: 1;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #fff;
+  width: 100%;
+  height: 120px;
+}
+
+header img {
+  width: 158px;
+}
+
+.logo_morelia {
+  width: 78px;
+  height: auto;
+}
+
+.logo_sepci {
+  margin-top: 10px;
+}
+.img1 {
+  size: 100px;
+}
+.img3 {
+  width: 80px;
+  height: 80px;
+}
+.img4 {
+  margin-top: auto;
+}
+
+.Menu {
+  background-color: #1b396a;
+  display: flex;
+  height: 40px;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.Menu nav {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  padding-bottom: 0px;
+  padding-right: 20px;
+}
+
+.Menu nav .active {
+  color: #be9650;
+  text-decoration: underline;
+}
+
+.Menu .contenedor_menu nav a {
+  cursor: pointer;
+}
+
+.Menu a {
+  padding: 5px 12px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+/* .active {
+  
+} */

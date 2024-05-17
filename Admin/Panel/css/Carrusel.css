@@ -1,0 +1,110 @@
+.addSlider {
+    justify-content: center;
+    text-align: center;
+    position: -webkit-sticky;
+    position: sticky;
+    padding-top: 15px;
+  }
+  
+  .addSlider img {
+    width: 50px;
+    height: 50px;
+  }
+  
+  .txt h3 {
+    justify-content: center;
+    text-align: center;
+    color: black;
+  
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .container1 {
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .card2 {
+    width: 280px;
+    height: 300px;
+    margin: 20px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .card2 h2 {
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .card2 img {
+    padding: 20px;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    display: block;
+  }
+
+  .container1 .card2 a {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 5px;
+    background: #741731;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
+  .container1 .card2 input {
+    display: inline-block;
+    padding: 10px 15px;
+    margin-top: 5px;
+    background: #741731;
+    color: #fff;
+    border-radius: 50px;
+    border: none;
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+
+  
+  
+  .botones {
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+  }
+  
+  .button-container1 {
+    margin: 0 2px;
+  }
+  
+  
+  .carousel-controls {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .carousel-control {
+    font-size: 24px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 0 10px;
+  }
+  
+  .carousel-control.prev {
+    transform: scaleX(1);
+    /* Voltea horizontalmente la flecha de la izquierda */
+  }

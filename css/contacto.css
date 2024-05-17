@@ -1,0 +1,97 @@
+.titulo h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #741731;
+  text-transform: uppercase;
+}
+
+.finalidad {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+
+.finalidad_main {
+  display: flex;
+  width: 95%;
+  justify-content: space-around;
+}
+
+.finalidad_text {
+  text-align: justify;
+  width: 50%;
+}
+
+.finalidad_text h3 {
+  color: #be9650;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+
+.finalidad_img img {
+  width: 200px;
+  height: auto;
+}
+
+.sub {
+  background-color: #741731;
+  width: 59px;
+  height: 4px;
+  margin-bottom: 10px;
+}
+
+.email {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 90px;
+}
+
+.email div {
+  width: 89%;
+}
+
+.maps {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+
+.maps div {
+  display: flex;
+  width: 89%;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+}
+
+.maps h3 {
+  margin: 0;
+}
+
+.social {
+  margin-left: 60px;
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.socials {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.social h2 {
+  font-size: 48px;
+}
+
+.socials img {
+  width: 100px;
+  height: auto;
+}

@@ -1,0 +1,34 @@
+.footer {
+  background-color: #1b396a;
+  font-family: "Roboto", sans-serif;
+}
+.contenedor__contac {
+  padding: 20px 60px;
+  justify-content: right;
+}
+.texto {
+  background-color: #1b396a;
+  color: #fff;
+  justify-content: center;
+  display: flex;
+}
+.text {
+  text-decoration: none;
+  color: #fff;
+  padding: 30px 30px;
+  display: flex;
+}
+
+.text a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  padding: 2px 2px;
+}
+
+.text a:hover {
+  color: yellow;
+}
+.container {
+  display: flex;
+}

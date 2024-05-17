@@ -1,0 +1,31 @@
+.content {
+    text-align: justify;
+    background-color: #fff;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.content p {}
+
+h3 {
+    color: #333;
+    text-align: center;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 15px;
+    /* Aumenta el espacio entre elementos de la lista */
+    padding-left: 20px;
+    position: relative;
+    font-size: 18px;
+    /* Aumenta el tamaño de fuente */
+}

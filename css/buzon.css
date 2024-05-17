@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+
+.titulo h1 {
+  text-align: center;
+  font-size: 35px;
+  font-family: "Roboto", sans-serif;
+  color: #741731;
+  text-transform: uppercase;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  font-family: "Roboto", sans-serif;
+}
+
+.conten_input {
+  width: 50%;
+}
+
+.columna {
+  margin: 15px 0 0 15px;
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.columna label {
+  width: 30%;
+  text-align: end;
+  margin-right: 20px;
+}
+
+.columna input {
+  width: 90%;
+  height: 10px;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+.columna textarea {
+  width: 90%;
+  height: 250px;
+  font-size: 16px;
+  padding: 10px;
+  border: 2px solid #ccc;
+}
+
+/* Subir archivo */
+#dropzone {
+  border: 2px dashed #ccc;
+  padding: 20px;
+  text-align: center;
+  font-size: 16px;
+  width: 100%;
+}
+
+.archivos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+#dropzone.dragover {
+  border-color: #007bff;
+}
+
+.btn_send {
+  background-color: #741731;
+  color: white;
+  width: 156px;
+  height: 41px;
+  border: none;
+  border-radius: 21px;
+  margin-bottom: 100px;
+}
+
+/* Checkbox */
+.lbl{
+  display: inline-block;
+  width: 51px;
+  height: 20px;
+  background-color: #979797;
+  border-radius: 100px;
+  cursor: pointer;
+  position: relative;
+  transition: .2s;
+  margin-left: 20px;
+}
+
+.lbl::after{
+  content: '';
+  display: block;
+  width: 12px;
+  height: 12px;
+  background: #eee;
+  border-radius: 100px;
+  position: absolute;
+  top: 4px;
+  left: 4px;
+  transition: .2s;
+}
+
+#bloquear:checked + .lbl::after{
+  left: 35px;
+}
+
+#bloquear:checked + .lbl{
+  background: #1b396a;
+
+}
+
+#bloquear{
+  display: none;
+  
+}

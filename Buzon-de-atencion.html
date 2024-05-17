@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="img/logo-SEPCI.png" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capacitate</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/buzon.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/nav.css" />
+    <script
+      src="https://kit.fontawesome.com/12dc2fa4a1.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section class="Main_header">
+      <header>
+        <img src="img/logoEducacion.png" class="img1" />
+        <img src="img/Logo-TecNM.png" class="img2" />
+        <img src="img/logo-Itmorelia.png" class="img3" />
+        <img src="img/logo-SEPCI.png" class="img4" />
+      </header>
+      <header class="Menu">
+        <div class="contenedor_menu">
+          <nav>
+            <a href="index.php">Inicio</a>
+            <a href="Capacitate.php">Capacitate</a>
+            <a href="Documentos.php">Documentos</a>
+            <a class="active" href="Buzon-de-atencion.html"
+              >Buzón de Atención</a
+            >
+            <a href="Contacto.html">Contacto</a>
+          </nav>
+        </div>
+      </header>
+    </section>
+
+    <div class="titulo">
+      <br />
+      <h1>Denuncias en materia de ética pública o conflicto de interés</h1>
+    </div>
+    <section class="seccion">
+      <form
+        method="POST"
+        action="php/DBManager/actionAddComplain.php"
+        enctype="multipart/form-data"
+        role="form"
+      >
+        <div class="contenedor">
+          <div class="conten_input">
+            <div class="swtich-container">
+              <label for="name">Quieres ser Anonimo: </label>
+              <input
+                type="checkbox"
+                id="bloquear"
+                class="bloquear"
+                onchange="bloquearCelda()"
+              />
+              <label for="bloquear" class="lbl"></label>
+            </div>
+            <div class="columna">
+              <label for="name">Nombre: </label>
+              <input type="text" name="name" id="celdaTexto" required />
+            </div>
+            <div class="columna">
+              <label for="email">Correo Electronico: </label>
+              <input type="text" name="email" id="celdaTexto2" required />
+            </div>
+            <div class="columna">
+              <label for="phone">Telefono: </label>
+              <input type="text" name="phone" required />
+            </div>
+            <div class="columna">
+              <label for="name_Denounced">Nombre del Denunciado: </label>
+              <input type="text" name="name_Denounced" required />
+            </div>
+            <div class="columna">
+              <label for="post_Denounced">Cargo del Denunciado: </label>
+              <input type="text" name="post_Denounced" required />
+            </div>
+            <div class="columna">
+              <label for="approach">Planteamiento claro y sucinto: </label>
+              <textarea
+                name="succint"
+                id=""
+                cols="30"
+                rows="10"
+                required
+              ></textarea>
+            </div>
+
+            <div class="archivos">
+              <p>
+                Documentos o evidencias vinculadas con los hechos y motivos de
+                la consulta (Opcional)
+              </p>
+              <div id="dropzone">
+                <p>
+                  Arrastra y suelta un archivo aquí o haz clic para seleccionar
+                  uno.
+                </p>
+                <input type="file" id="archivo" name="archivo" multiple />
+              </div>
+            </div>
+            <div class="columna">
+              <button type="submit" class="btn_send">Enviar</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </section>
+
+    <script src="js/buzon.js"></script>
+    <footer class="footer">
+      <div class="container">
+        <div class="text">
+          <p>
+            <strong>Contacto</strong> <br />Email: <br />
+            cero.tolerancia@itmorelia.edu.mx
+            <br />
+            <br />
+            <strong>Dirección:</strong>
+            <br />
+            Av Morelos Nte 2550, Santiaguito, <br />
+            58110 Morelia, Mich.
+          </p>
+        </div>
+        <div class="text">
+          <p>
+            <strong>Enlaces</strong><br />
+            <a href="index.php">Inicio</a><br />
+            <a href="Capacitate.php">Capacitate</a><br />
+            <a href="Documentos.php">Documentos</a><br />
+            <a href="Buzon-de-atencion.html">Buzón de Atención</a><br />
+            <a href="Contacto.html">Contacto</a><br />
+          </p>
+        </div>
+        <div class="contenedor__contac">
+          <iframe
+            src="https://maps.google.com/maps?q=Instituto Tecnológico de Morelia&t=&z=16&ie=UTF8&iwloc=&output=embed"
+            width="600"
+            height="200"
+            style="border: 0"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+      <div class="texto">
+        <p>
+          &copy; Copyright 2023 TecNM Campus Morelia - Todos los Derechos
+          Reservados
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
